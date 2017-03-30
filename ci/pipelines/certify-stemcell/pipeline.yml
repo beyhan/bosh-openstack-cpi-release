@@ -397,8 +397,8 @@ jobs:
           director_ca_private_key:              {{director_ca_private_key}}
           bosh_openstack_ca_cert:               {{bosh_openstack_ca_cert}}
           v3_e2e_private_key_data:              {{v3_e2e_private_key_data}}
-          old_bosh_release_version:             255.5
-          old_bosh_release_sha1:                ffc41db255450cb72b74190c8b9c2a1fe9846ad7
+          old_bosh_release_version:             "256.10"
+          old_bosh_release_sha1:                65157148ed1bcc5af364730ff7e396da37401aef
           ci_bosh_admin_password:               {{bosh_admin_password}}
           ci_v3_e2e_flavor:                     "m1.medium"
           ci_v3_e2e_connection_timeout:         "600"
